@@ -1,5 +1,5 @@
 # react_group_atm_task
-Bankomat Yaradin
+### ATM Proyekti Yaradin
 1. `enter_card.html` `check_card.html` `user_balance.html` `check_out_info.html` sehifelerini yaradin
 2. `enter_card.html` sehifesine enter card button-u yerlesdirin. Hansi ki, uzerine click edende sehife reload olmadan (ajax vasitesi ile) sehifeye `check_card.html` yuklensin.
 3. `check_card.html`-de bir form yaradin. Card number-i ve card_password-u daxil etmek ucun iki input yerlesdirin. Daxil edilen melumatlari ajax vasitesi ile back-end-e post edib, daxil edilen card melumatlarinin dogrulugunu yoxlayin.Eger melumatlar dogrudursa istifadecini sehife reload olmadan sehifeni temizleyin  ve ajax vasitesi ile `user_balance.html` html-i sehifeye yukleyin. Eger melumatlar dogru deyilen back-endden gelen xeberdarligi istifadeciye gosterin.

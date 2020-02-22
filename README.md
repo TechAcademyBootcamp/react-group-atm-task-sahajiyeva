@@ -1,4 +1,4 @@
-# react_group_bankomat_task
+# react_group_atm_task
 Bankomat Yaradin
 1. `enter_card.html` `check_card.html` `user_balance.html` `check_out_info.html` sehifelerini yaradin
 2. `enter_card.html` sehifesine enter card button-u yerlesdirin. Hansi ki, uzerine click edende sehife reload olmadan (ajax vasitesi ile) sehifeye `check_card.html` yuklensin.

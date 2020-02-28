@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      span{
+        color:hotpink
+      }
+    </style>
+</head>
+<body>
+    <div id="form">
+      <span class="error" id="error"></span>
+        <form >
+        <div>
+            <label >Card Number</label>
+            <input type="number" id="card_number" required=true>
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <input type="password" id="card_password" required=true >
+          </div>
+          </form>
+          <input style="color: blue; background: #eee" type="submit" id="check-form" value="Send">
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    
+      <!-- <script src="check_card.js"></script> -->
+
+</body>
+</html>
